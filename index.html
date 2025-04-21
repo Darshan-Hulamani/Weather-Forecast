@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+        <title>Weather Forecast</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body> 
+        <div class="container">
+            <h1 align="center">Weather Forecast</h1>
+            <center><input type="text" id="locationInput" placeholder="Enter location" class="ip">
+            <form name="f1">
+                <select name="Weather_In" id="wety" class="ip">
+                    <option value="cel" selected>Celius</option>
+                    <option value="far">Fahrenheit</option>
+                </select>
+            </form>
+            <button id="getWeatherBtn">Get Weather</button></center>
+
+            <div id="loc" align="center"></div>
+            <div class="data">
+                <div id="tem"></div>
+                <div id="wea"></div>
+                <div id="hum"></div>
+                <div id="win"></div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
